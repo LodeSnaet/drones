@@ -1,0 +1,7 @@
+isPublic: false
+name: Test
+scope:
+  - 'sites.61b6e853-d076-4bb5-b166-7676f6618cdd:read' # nordcraft-craft
+  - 'sections.c8431f53-6090-4538-8518-39607186e58e:read' # Home
+  - 'sections.99065845-74c0-4210-a82a-007622165156:read' # Product Overview
+  - 'volumes.7853e7d5-244b-461e-8550-bbb1e8516e09:read' # Products

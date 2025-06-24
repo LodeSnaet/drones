@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 9263d905-fd7a-41d5-bd9e-f5d216ba75ab # Home
+handle: home
+maxAuthors: 1
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  61b6e853-d076-4bb5-b166-7676f6618cdd: # nordcraft-craft
+    enabledByDefault: true
+    hasUrls: true
+    template: home/_entry.twig
+    uriFormat: __home__
+type: single

@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: nordcraft-craft
+primary: true
+siteGroup: 6a716585-c2d8-4adb-aeb4-3b77eb1fc305 # nordcraft-craft
+sortOrder: 1

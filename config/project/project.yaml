@@ -1,0 +1,42 @@
+dateModified: 1750800726
+email:
+  fromEmail: lode.snaet@student.howest.be
+  fromName: nordcraft-craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDiskImages:
+    hasUrls: true
+    name: 'Hard Disk images'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+meta:
+  __names__:
+    5f884a28-a134-41f0-8741-4c42f4f0aa21: 'Public Schema' # Public Schema
+    6a716585-c2d8-4adb-aeb4-3b77eb1fc305: nordcraft-craft # nordcraft-craft
+    8d003395-7271-45e7-b45d-de0dcf7e0ce4: ProductPhoto # ProductPhoto
+    61b6e853-d076-4bb5-b166-7676f6618cdd: nordcraft-craft # nordcraft-craft
+    100d128e-a790-4ef6-a535-cab529b70888: 'Product Card' # Product Card
+    242eb06e-430d-4a96-9457-e8aec1c1b592: Price # Price
+    7853e7d5-244b-461e-8550-bbb1e8516e09: Products # Products
+    9263d905-fd7a-41d5-bd9e-f5d216ba75ab: Home # Home
+    814414bc-54da-4206-96b9-1759375b2d1c: ProductList # ProductList
+    56697331-bf08-457a-aebf-a78e859e26d3: Test # Test
+    99065845-74c0-4210-a82a-007622165156: 'Product Overview' # Product Overview
+    abc07032-a18b-4efb-8a1b-b2e6b254abc8: Description # Description
+    c8431f53-6090-4538-8518-39607186e58e: Home # Home
+    f2b50919-b2a9-4731-8ca4-3e2c2bd3a0ad: Stock # Stock
+system:
+  edition: pro
+  live: true
+  name: nordcraft-craft
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

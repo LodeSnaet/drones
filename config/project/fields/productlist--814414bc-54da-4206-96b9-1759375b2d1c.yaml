@@ -1,0 +1,72 @@
+columnSuffix: null
+handle: productlist
+instructions: null
+name: ProductList
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              0:
+                - class
+                - craft\fields\conditions\RelationalFieldConditionRule
+              1:
+                - uid
+                - a745f073-257f-4d7f-af63-ccd0353e3859
+              2:
+                - operator
+                - notempty
+              4:
+                - fieldUid
+                - 8d003395-7271-45e7-b45d-de0dcf7e0ce4 # ProductPhoto
+              5:
+                - layoutElementUid
+                - 437f3166-4b84-456e-9126-3393393eac0a
+          -
+            __assoc__:
+              0:
+                - class
+                - craft\fields\conditions\RelationalFieldConditionRule
+              1:
+                - uid
+                - 35d9b101-7a2b-4f9f-9c8d-a63ca33b433a
+              2:
+                - operator
+                - empty
+              4:
+                - fieldUid
+                - 814414bc-54da-4206-96b9-1759375b2d1c # ProductList
+              5:
+                - layoutElementUid
+                - 48ce05d7-57c2-46ec-a4e3-90368f642f63
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: true
+  showUnpermittedEntries: false
+  showUnpermittedSections: false
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

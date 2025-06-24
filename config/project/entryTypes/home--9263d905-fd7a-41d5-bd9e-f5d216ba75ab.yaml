@@ -1,0 +1,68 @@
+color: lime
+fieldLayouts:
+  a45ef66b-732d-42b2-bf90-bffc6fc3bd2a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-06-24T11:21:56+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6c5b48b0-18e5-4397-95a0-7f4ddaf5f8be
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-24T11:48:15+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 814414bc-54da-4206-96b9-1759375b2d1c # ProductList
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48ce05d7-57c2-46ec-a4e3-90368f642f63
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: abc47ea8-b975-4ba0-b0f0-a6c43635388e
+        userCondition: null
+handle: home
+hasTitleField: true
+icon: house
+name: Home
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,16 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 100d128e-a790-4ef6-a535-cab529b70888 # Product Card
+handle: productOverview
+maxAuthors: 1
+name: 'Product Overview'
+propagationMethod: all
+siteSettings:
+  61b6e853-d076-4bb5-b166-7676f6618cdd: # nordcraft-craft
+    enabledByDefault: false
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel
